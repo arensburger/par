@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en"><table style="width:100%">
 <tr>
+	<td>---- 04:00:01 02/26/2026 Starting barber backup</td>
+</tr>
+<tr>
+	<td>---- Script: peter@boheme:/home/peter/scripts/barber_backup.sh</td>
+</tr>
+<tr>
+	<td>---- Description: syncing folder /home/peter on barber with boheme at /mnt/backup/barber without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt</td>
+</tr>
+<tr>
+	<td>---- 04:00:02 02/26/2026 End of barber backup</td>
+</tr>
+<tr>
 	<td>---- 04:00:01 02/25/2026 Starting faust backup</td>
 </tr>
 <tr>
@@ -41,117 +53,6 @@
 </tr>
 <tr>
 	<td>---- 04:00:07 02/24/2026 End of hpc backup</td>
-</tr>
-<tr>
-	<td>---- 04:00:01 02/19/2026 Starting traviata backup</td>
-</tr>
-<tr>
-	<td>---- Script: peter@boheme:/home/peter/scripts/traviata_backup.sh</td>
-</tr>
-<tr>
-	<td>---- Description: syncing folder /home/peter on traviata with boheme at /mnt/backup/traviata without deletion of old stuff, excluding some files that are listed in faust_exclude_list.txt</td>
-</tr>
-<tr>
-	<td>---- 04:00:01 02/19/2026 End of traviata backup</td>
-</tr>
-<tr>
-	<td></td>
-</tr>
-<tr>
-	<td>---- 04:00:01 02/20/2026 Disk usage on boheme for /mnt/backup</td>
-</tr>
-<tr>
-	<td>---- Script: peter@boheme:/home/peter/scripts/disk_usage.sh</td>
-</tr>
-<tr>
-	<td>---- Description: 1) Replacing duplicate files with symlinks 2) Getting disk usage of backup on /mnt/backup</td>
-</tr>
-<tr>
-	<td>Now scanning "/mnt/backup/traviata", found 152 files.</td>
-</tr>
-<tr>
-	<td>Now have 152 files in total.</td>
-</tr>
-<tr>
-	<td>Removed 0 files due to nonunique device and inode.</td>
-</tr>
-<tr>
-	<td>Total size is 2115034 bytes or 2 MiB</td>
-</tr>
-<tr>
-	<td>Removed 148 files due to unique sizes from list. 4 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on first bytes: removed 4 files from list. 0 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on last bytes: removed 0 files from list. 0 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on sha1 checksum: removed 0 files from list. 0 files left.</td>
-</tr>
-<tr>
-	<td>It seems like you have 0 files that are not unique</td>
-</tr>
-<tr>
-	<td>Totally, 0 B can be reduced.</td>
-</tr>
-<tr>
-	<td>Now making results file results.txt</td>
-</tr>
-<tr>
-	<td>Now making symbolic links. creating </td>
-</tr>
-<tr>
-	<td>Making 0 links.</td>
-</tr>
-<tr>
-	<td>Now scanning "/mnt/backup/faust", found 43728 files.</td>
-</tr>
-<tr>
-	<td>Now have 43728 files in total.</td>
-</tr>
-<tr>
-	<td>Removed 0 files due to nonunique device and inode.</td>
-</tr>
-<tr>
-	<td>Total size is 110725686696 bytes or 103 GiB</td>
-</tr>
-<tr>
-	<td>Removed 7628 files due to unique sizes from list. 36100 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on first bytes: removed 3493 files from list. 32607 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on last bytes: removed 475 files from list. 32132 files left.</td>
-</tr>
-<tr>
-	<td>Now eliminating candidates based on sha1 checksum: removed 246 files from list. 31886 files left.</td>
-</tr>
-<tr>
-	<td>It seems like you have 31886 files that are not unique</td>
-</tr>
-<tr>
-	<td>Totally, 15 GiB can be reduced.</td>
-</tr>
-<tr>
-	<td>Now making results file results.txt</td>
-</tr>
-<tr>
-	<td>Now making symbolic links. creating </td>
-</tr>
-<tr>
-	<td>Making 22674 links.</td>
-</tr>
-<tr>
-	<td>Filesystem      Size  Used Avail Use% Mounted on</td>
-</tr>
-<tr>
-	<td>/dev/sda2       2.7T  103G  2.5T   4% /mnt/backup</td>
-</tr>
-<tr>
-	<td>---- 04:06:22 02/20/2026 End of disk usage</td>
 </tr>
 </table>
 </html>
